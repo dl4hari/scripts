@@ -1,293 +1,293 @@
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('REPORT_TYPE', 'REPORT_TYPE', 'Tyope of Report', 'Tyope of Report', '100', GETDATE());
+  VALUES ('REPORT_TYPE', 'reportType', 'Tyope of Report', 'Tyope of Report', '100', GETDATE());
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('REPORT_TYPE', 'Report a Fraud Event', 'Report a Fraud Event', 'Report a Fraud Event', '100', GETDATE());
+  VALUES ('REPORT_TYPE', 'reportType', 'Report a Fraud Event', 'Report a Fraud Event', '100', GETDATE());
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('REPORT_TYPE', 'Fraud Inquiry', 'Fraud Inquiry', 'Fraud Inquiry', '100', GETDATE());
+  VALUES ('REPORT_TYPE', 'reportType', 'Fraud Inquiry', 'Fraud Inquiry', '100', GETDATE());
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('REPORT_TYPE', 'Internal Incident', 'Internal Incident', 'Internal Incident', '100', GETDATE());
+  VALUES ('REPORT_TYPE', 'reportType', 'Internal Incident', 'Internal Incident', '100', GETDATE());
   
   
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+  
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('FRAUD_TYPE_CD', 'FRAUD_TYPE_CD', 'Type of Fraud', 'Tyope of Fraud', '100', GETDATE());
+  VALUES ('FRAUD_TYPE_CD', 'fraudTypeCd', 'Type of Fraud', 'Tyope of Fraud', '100', GETDATE());
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('FRAUD_TYPE_CD', 'Transactional', 'Transactional', 'Transactional', '100', GETDATE());  
+  VALUES ('FRAUD_TYPE_CD', 'fraudTypeCd', 'Transactional', 'Transactional', '100', GETDATE());  
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('FRAUD_TYPE_CD', 'Non Transactional', 'Non Transactional', 'Non Transactional', '100', GETDATE());
+  VALUES ('FRAUD_TYPE_CD', 'fraudTypeCd', 'Non Transactional', 'Non Transactional', '100', GETDATE());
   
-////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+  
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('SUBJECT_TYPE_CD', 'SUBJECT_TYPE_CD', 'Subject Type', 'Subject Type', '100', GETDATE());
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'Subject Type', 'Subject Type', '100', GETDATE());
    
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE_CD', 'Client', 'Client', 'Client', '100', GETDATE());   
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'Client', 'Client', '100', GETDATE());   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE_CD', 'Former Client', 'Former Client', 'Former Client', '100', GETDATE());   
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'Former Client', 'Former Client', '100', GETDATE());   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE_CD', 'Prospective Client', 'Prospective Client', 'Prospective Client', '100', GETDATE());  
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'Prospective Client', 'Prospective Client', '100', GETDATE());  
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE_CD', 'Non - Client', 'Non - Client', 'Non - Client', '100', GETDATE());   
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'Non - Client', 'Non - Client', '100', GETDATE());   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE_CD', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'Unknown', 'Unknown', '100', GETDATE()); 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE_CD', 'N/A', 'N/A', 'N/A', '100', GETDATE());  
+  VALUES ('SUBJECT_TYPE_CD', 'subjectTypeCd', 'NA', 'NA', '100', GETDATE());  
 
-/////////////////////////////////////////////////////////////////////////////////////
+
 
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('CUST_TYPE_CD', 'CUST_TYPE_CD', 'Client Type', 'Client Type', '100', GETDATE());
+  VALUES ('CUST_TYPE_CD', 'custTypeCd', 'Client Type', 'Client Type', '100', GETDATE());
  
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('CUST_TYPE_CD', 'Consumer', 'Consumer', 'Consumer', '100', GETDATE()); 
+  VALUES ('CUST_TYPE_CD', 'custTypeCd', 'Consumer', 'Consumer', '100', GETDATE()); 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('CUST_TYPE_CD', 'Business', 'Business', 'Business', '100', GETDATE()); 
+  VALUES ('CUST_TYPE_CD', 'custTypeCd', 'Business', 'Business', '100', GETDATE()); 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('CUST_TYPE_CD', 'Both', 'Both', 'Both', '100', GETDATE());   
+  VALUES ('CUST_TYPE_CD', 'custTypeCd', 'Both', 'Both', '100', GETDATE());   
   
-/////////////////////////////////////////////////////////////////////////////////  
+  
   
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('MATTER_IDENTIFIED_CD', 'MATTER_IDENTIFIED_CD', 'How as the matter Identified?', 'How as the matter Identified?', '100', GETDATE());
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'How as the matter Identified?', 'How as the matter Identified?', '100', GETDATE());
  
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MATTER_IDENTIFIED_CD', 'Client Reported', 'Client Reported', 'Client Reported', '100', GETDATE());
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'Client Reported', 'Client Reported', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MATTER_IDENTIFIED_CD', 'Banker Identified', 'Banker Identified', 'Banker Identified', '100', GETDATE());
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'Banker Identified', 'Banker Identified', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MATTER_IDENTIFIED_CD', 'Other FRB bussiness until Identified', 'Other FRB bussiness until Identified', 'Other FRB bussiness until Identified', '100', GETDATE());
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'Other FRB bussiness until Identified', 'Other FRB bussiness until Identified', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MATTER_IDENTIFIED_CD', 'Law Enforcement', 'Law Enforcement', 'Law Enforcement', '100', GETDATE());
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'Law Enforcement', 'Law Enforcement', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MATTER_IDENTIFIED_CD', 'Other Financial', 'Other Financial', 'Other Financial', '100', GETDATE()); 
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'Other Financial', 'Other Financial', '100', GETDATE()); 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MATTER_IDENTIFIED_CD', 'Other', 'Other', 'Other', '100', GETDATE()); 
+  VALUES ('MATTER_IDENTIFIED_CD', 'matterIdentifiedCd', 'Other', 'Other', '100', GETDATE()); 
 
-////////////////////////////////////////////////////////////////////////
+
   
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('PRODUCT_TYPE', 'PRODUCT_TYPE', 'Product Type', 'Product Type', '100', GETDATE());
+  VALUES ('PRODUCT_TYPE', 'productType', 'Product Type', 'Product Type', '100', GETDATE());
  
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'Wire', 'Wire', 'Wire', '100', GETDATE()); 
+  VALUES ('PRODUCT_TYPE', 'productType', 'Wire', 'Wire', '100', GETDATE()); 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'ACH RDFI', 'ACH RDFI', 'ACH RDFI', '100', GETDATE()); 
+  VALUES ('PRODUCT_TYPE', 'productType', 'ACH RDFI', 'ACH RDFI', '100', GETDATE()); 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'ACH ODFI', 'ACH ODFI', 'ACH ODFI', '100', GETDATE()); 
+  VALUES ('PRODUCT_TYPE', 'productType', 'ACH ODFI', 'ACH ODFI', '100', GETDATE()); 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'Consumer BillPay', 'Consumer BillPay', 'Consumer BillPay', '100', GETDATE());  
+  VALUES ('PRODUCT_TYPE', 'productType', 'Consumer BillPay', 'Consumer BillPay', '100', GETDATE());  
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'Corporate BillPay', 'Corporate BillPay', 'Corporate BillPay', '100', GETDATE());   
+  VALUES ('PRODUCT_TYPE', 'productType', 'Corporate BillPay', 'Corporate BillPay', '100', GETDATE());   
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'Check', 'Check', 'Check', '100', GETDATE());   
+  VALUES ('PRODUCT_TYPE', 'productType', 'Check', 'Check', '100', GETDATE());   
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('PRODUCT_TYPE', 'Other(e.g.cash or internal transfer)', 'Other(e.g.cash or internal transfer)', 'Other(e.g.cash or internal transfer)', '100', GETDATE());     
+  VALUES ('PRODUCT_TYPE', 'productType', 'Other(e.g.cash or internal transfer)', 'Other(e.g.cash or internal transfer)', '100', GETDATE());     
   
   
-//////////////////////////////////////////////////////
-
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('FUNDS_FRB', 'FUNDS_FRB', 'Did Funds leave FRB?', 'Did Funds leave FRB?', '100', GETDATE());
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('FUNDS_FRB', 'Yes', 'Yes', 'Yes', '100', GETDATE()); 
-  
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('FUNDS_FRB', 'No', 'No', 'No', '100', GETDATE());  
-
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('FUNDS_FRB', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE());    
-  
-//////////////////////////////////////////////////
 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('CLIENT_INIT_TRANSACTION', 'CLIENT_INIT_TRANSACTION', 'Did the client initiate the Trnasactions?', 'Did the client initiate the Trnasactions?', '100', GETDATE());
+  VALUES ('FUNDS_FRB', 'fundsFrb', 'Did Funds leave FRB?', 'Did Funds leave FRB?', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('CLIENT_INIT_TRANSACTION', 'Yes', 'Yes', 'Yes', '100', GETDATE()); 
+  VALUES ('FUNDS_FRB', 'fundsFrb', 'Yes', 'Yes', '100', GETDATE()); 
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('CLIENT_INIT_TRANSACTION', 'No', 'No', 'No', '100', GETDATE());  
+  VALUES ('FUNDS_FRB', 'fundsFrb', 'No', 'No', '100', GETDATE());  
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('CLIENT_INIT_TRANSACTION', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE());    
-  
-  
-///////////////////////////////////////////////////
-
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('TRANSACTION_IDENTIFIED', 'TRANSACTION_IDENTIFIED', 'How was the transaction initiated?', 'How was the transaction initiated?', '100', GETDATE());
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('TRANSACTION_IDENTIFIED', 'Yes', 'Yes', 'Yes', '100', GETDATE()); 
+  VALUES ('FUNDS_FRB', 'fundsFrb', 'Unknown', 'Unknown', '100', GETDATE());    
   
 
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('TRANSACTION_IDENTIFIED', 'No', 'No', 'No', '100', GETDATE());  
-
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('TRANSACTION_IDENTIFIED', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE());      
-  
-  
-/////////////////////////////////////////////////////////////////////////////////  
 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('TRANSACTION_RECALL', 'TRANSACTION_RECALL', 'How the tansaction been recalled?* (for WIres only)', 'How the tansaction been recalled?* (for WIres only)', '100', GETDATE());
+  VALUES ('CLIENT_INIT_TRANSACTION', 'clientInitTransaction', 'Did the client initiate the Trnasactions?', 'Did the client initiate the Trnasactions?', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('TRANSACTION_RECALL', 'Yes', 'Yes', 'Yes', '100', GETDATE()); 
+  VALUES ('CLIENT_INIT_TRANSACTION', 'clientInitTransaction', 'Yes', 'Yes', '100', GETDATE()); 
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('TRANSACTION_RECALL', 'No', 'No', 'No', '100', GETDATE());  
+  VALUES ('CLIENT_INIT_TRANSACTION', 'clientInitTransaction', 'No', 'No', '100', GETDATE());  
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('TRANSACTION_RECALL', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE());  
+  VALUES ('CLIENT_INIT_TRANSACTION', 'clientInitTransaction', 'Unknown', 'Unknown', '100', GETDATE());    
   
- ///////////////////////////////////////////
- 
+  
+
+
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
+  VALUES ('TRANSACTION_IDENTIFIED', 'transactionIdentified', 'How was the transaction initiated?', 'How was the transaction initiated?', '100', GETDATE());
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TRANSACTION_IDENTIFIED', 'transactionIdentified', 'Yes', 'Yes', '100', GETDATE()); 
+  
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TRANSACTION_IDENTIFIED', 'transactionIdentified', 'No', 'No', '100', GETDATE());  
+
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TRANSACTION_IDENTIFIED', 'transactionIdentified', 'Unknown', 'Unknown', '100', GETDATE());      
+  
+  
+  
+
+
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
+  VALUES ('TRANSACTION_RECALL', 'transactionRecall', 'How the tansaction been recalled?* (for WIres only)', 'How the tansaction been recalled?* (for WIres only)', '100', GETDATE());
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TRANSACTION_RECALL', 'transactionRecall', 'Yes', 'Yes', '100', GETDATE()); 
+  
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TRANSACTION_RECALL', 'transactionRecall', 'No', 'No', '100', GETDATE());  
+
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TRANSACTION_RECALL', 'transactionRecall', 'Unknown', 'Unknown', '100', GETDATE());  
+  
  
  
  
+ 
+ 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('SUBJECT_TYPE', 'SUBJECT_TYPE', 'Subject Type', 'Subject Type', '100', GETDATE());
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'Subject Type', 'Subject Type', '100', GETDATE());
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'Employee', 'Employee', 'Employee', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'Employee', 'Employee', '100', GETDATE()); 
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'ACH RDFI', 'ACH RDFI', 'ACH RDFI', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'ACH RDFI', 'ACH RDFI', '100', GETDATE()); 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'ACH ODFI', 'ACH ODFI', 'ACH ODFI', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'ACH ODFI', 'ACH ODFI', '100', GETDATE()); 
   
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'Consumer BillPay', 'Consumer BillPay', 'Consumer BillPay', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'Consumer BillPay', 'Consumer BillPay', '100', GETDATE()); 
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'Corporate BillPay', 'Corporate BillPay', 'Corporate BillPay', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'Corporate BillPay', 'Corporate BillPay', '100', GETDATE()); 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'Check', 'Check', 'Check', '100', GETDATE()); 
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'Check', 'Check', '100', GETDATE()); 
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('SUBJECT_TYPE', 'Other(e.g.cash or internal transfer)', 'Other(e.g.cash or internal transfer)', 'Other(e.g.cash or internal transfer)', '100', GETDATE());   
+  VALUES ('SUBJECT_TYPE', 'subjectType', 'Other(e.g.cash or internal transfer)', 'Other(e.g.cash or internal transfer)', '100', GETDATE());   
 
   
-///////////////////////////////////
 
 
 
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('MANGER_NM', 'MANGER_NM', 'Manager's Name', 'Manager's Name', '100', GETDATE());
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MANGER_NM', 'Yes', 'Yes', 'Yes', '100', GETDATE()); 
-  
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MANGER_NM', 'No', 'No', 'No', '100', GETDATE());  
-
-
-INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('MANGER_NM', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE());  
-  
-////////////////////////////////////////////////////////////////  
-  
-  
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('HR_PARTERNER_NM', 'HR_PARTERNER_NM', 'HR Business Partner Name', 'HR Business Partner Name', '100', GETDATE());
+  VALUES ('MANGER_NM', 'managerNm', 'Managers Name', 'Managers Name', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('HR_PARTERNER_NM', 'Yes', 'Yes', 'Yes', '100', GETDATE()); 
+  VALUES ('MANGER_NM', 'managerNm', 'Yes', 'Yes', '100', GETDATE()); 
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('HR_PARTERNER_NM', 'No', 'No', 'No', '100', GETDATE());  
+  VALUES ('MANGER_NM', 'managerNm', 'No', 'No', '100', GETDATE());  
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('HR_PARTERNER_NM', 'Unknown', 'Unknown', 'Unknown', '100', GETDATE());  
+  VALUES ('MANGER_NM', 'managerNm', 'Unknown', 'Unknown', '100', GETDATE());  
+  
+  
+  
+  
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
+  VALUES ('HR_PARTERNER_NM', 'hrPartnerNm', 'HR Business Partner Name', 'HR Business Partner Name', '100', GETDATE());
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('HR_PARTERNER_NM', 'hrPartnerNm', 'Yes', 'Yes', '100', GETDATE()); 
+  
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('HR_PARTERNER_NM', 'hrPartnerNm', 'No', 'No', '100', GETDATE());  
 
 
-///////////////////////////////////////////////////////////////////////////////  
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('HR_PARTERNER_NM', 'hrPartnerNm', 'Unknown', 'Unknown', '100', GETDATE());  
+
+
+  
   
   
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
-  VALUES ('EMP_INITIAL', 'EMP_INITIAL', 'Employee Initials', 'Employee Initials', '100', GETDATE());
+  VALUES ('EMP_INITIAL', 'empInitial', 'Employee Initials', 'Employee Initials', '100', GETDATE());
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('EMP_INITIAL', 'Online', 'Online', 'Online', '100', GETDATE()); 
+  VALUES ('EMP_INITIAL', 'empInitial', 'Online', 'Online', '100', GETDATE()); 
   
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('EMP_INITIAL', 'Email', 'Email', 'Email', '100', GETDATE());  
+  VALUES ('EMP_INITIAL', 'empInitial', 'Email', 'Email', '100', GETDATE());  
 
 
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('EMP_INITIAL', 'Fax', 'Fax', 'Fax', '100', GETDATE());
+  VALUES ('EMP_INITIAL', 'empInitial', 'Fax', 'Fax', '100', GETDATE());
   
   INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
-  VALUES ('EMP_INITIAL', 'In Person', 'In Person', 'In Person', '100', GETDATE());
+  VALUES ('EMP_INITIAL', 'empInitial', 'In Person', 'In Person', '100', GETDATE());
 
-/////////////////////////////////////////////////////////////////  
+  
   
   
   
