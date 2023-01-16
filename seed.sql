@@ -1,3 +1,36 @@
+==================================================================================================
+
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
+  VALUES ('TYPE_WIRE_TRANSFER', 'typeOfWireTransfer', 'Type of Wire Transfer(for Wires only)', 'Type of Wire Transfer(for Wires only)', '100', GETDATE());
+  
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TYPE_WIRE_TRANSFER', 'typeOfWireTransfer','Domestic', 'Domestic', '100', GETDATE());
+  
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TYPE_WIRE_TRANSFER', 'typeOfWireTransfer', 'International US$', 'International US$', '100', GETDATE());
+  
+INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_VALID_VALUES
+  VALUES ('TYPE_WIRE_TRANSFER', 'typeOfWireTransfer', 'FX-Non US$', 'FX-Non US$', '100', GETDATE());
+
+
+
+
+
+
+
+
+
+=====================================================================================================
+
+
+
+
+
+
+
+
+
+
 INSERT INTO SAMPLE_DATA.dbo.FRAUD_INTAKE_CODES
   VALUES ('REPORT_TYPE', 'reportType', 'Tyope of Report', 'Tyope of Report', '100', GETDATE());
   
