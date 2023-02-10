@@ -1,0 +1,41 @@
+{
+    "fraudIntakeMaster": {
+        "fraudIntakeId": 1,
+        "reportingUserId": "test1",
+        "reportDt": "2023-02-10",
+        "reportType": "test reportType",
+        "fraudTypeId": "test fraudType",
+        "subjectNm": "test subjectNm",
+        "subjectTypeCd": "test subjectType",
+        "subjectTaxId": "test subjectTax",
+        "customerId": "test customer",
+		"impactAccountName": "100101",
+        "custTypeCd": "test custType",
+        "acctTakeoverIn": "Yes",
+        "idTheftRelatedIn": "Yes",
+        "eventDetailsDesc": "test eventDetailsDesc",
+        "elderExploitIn": "Yes",
+        "referralReportedBy": "test",
+        "referralDeptNm": "test referralDeptNm",
+        "matterIdentifiedCd": "test matterIdentified",
+        "auditId": "test",
+        "auditUpdtTs": null,
+        "anonymousCd": null,
+        "email": null,
+        "phoneNo": null,
+        "incidentSome": null,
+        "reportIncident": null,
+        "cyberEvent": null,
+        "impactedAccounts": [],
+        "fraudIntakeObjects": [
+            {
+                "intakeFileNm": "test_fa1.txt",
+                "fraudIntakeId": 1,
+                "base64EncodedFileContent": "dGhpcyBpcyB0ZXN0X2ZhMS50eHQ="
+            }
+        ],
+        "fraudIntakeSubjectBean": [],
+        "fraudIntakeActivityBean": []
+    },
+    "valueMap": null
+}
